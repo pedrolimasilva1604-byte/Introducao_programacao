@@ -30,7 +30,7 @@ int main() {
         }
     }
 
-    printf("media da turma: %.1f\ntotal de aprovados: %d\n", media, aprovados);
+    printf("média da turma: %.1f\ntotal de aprovados: %d\n", media, aprovados);
 
     return 0;
 }

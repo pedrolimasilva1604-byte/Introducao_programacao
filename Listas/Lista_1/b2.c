@@ -14,14 +14,14 @@ int main(){
  scanf("%d", &n);
  
   produtos info[n]; 
-  printf("digite respectivamente o nome, preco e quantidade dos produtos comprados.\n\n");
+  printf("digite respectivamente o nome, preço e quantidade dos produtos comprados.\n\n");
   
   float valor_estoque = 0; 
   
 for(int i = 0; i < n; i++){
  scanf("%s %f %d", info[i].nome, &info[i].preco, &info[i].quant);
 
- printf("produto %d:\n nome do produto: %s\n preco do produto: %.2f\n quantidade do produto: %d\n", i +1, info[i].nome, info[i].preco, info[i].quant);
+ printf("produto %d:\n nome do produto: %s\n preço do produto: %.2f\n quantidade do produto: %d\n", i +1, info[i].nome, info[i].preco, info[i].quant);
  
  valor_estoque = info[i].preco * info[i].quant;
  soma += valor_estoque;

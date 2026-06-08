@@ -9,7 +9,7 @@ typedef struct{
 int main(){
  produto info;
 
- printf("informe o nome, preco e quantidade do produto.\n\n");
+ printf("informe o nome, preço e quantidade do produto.\n\n");
  scanf("%s %f %d", info.nome, &info.preco, &info.quantidade);
 
  float total = info.preco * info.quantidade;
